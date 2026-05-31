@@ -1,0 +1,251 @@
+sku,description,category,stock_qty,unit_price,supplier,supplier_lead_days,reorder_threshold
+HF-1409-C,90 Deg Elbow - Industrial Grade,hydraulic fittings,0,22.47,SMC,7,28
+PV-9935-A,Solenoid Valve - Industrial Grade,pneumatic valves,0,149.47,Swagelok,10,5
+EC-4582-B,M12 Connector - Industrial Grade,electrical connectors,0,46.35,Bimba,4,22
+SG-9928-D,Rod Seal - Industrial Grade,seals and gaskets,0,20.77,SMC,7,13
+PG-3615-D,Dry Gauge - Industrial Grade,pressure gauges,0,74.13,Hydac,9,11
+HF-2674-A,Tee Adapter - Industrial Grade,hydraulic fittings,0,12.29,Norgren,7,16
+PV-5333-A,Directional Valve - Industrial Grade,pneumatic valves,0,183.19,WIKA,11,17
+EC-5803-C,M12 Connector - Industrial Grade,electrical connectors,0,16.84,Swagelok,10,7
+SG-4733-C,O-Ring Kit - Industrial Grade,seals and gaskets,0,38.63,Eaton,6,8
+PG-5554-D,Vacuum Gauge - Industrial Grade,pressure gauges,0,50.86,Hydac,9,16
+HF-5374-A,Straight Coupling - Industrial Grade,hydraulic fittings,0,55.62,Swagelok,10,22
+PV-3677-D,Flow Control Valve - Industrial Grade,pneumatic valves,0,104.63,Norgren,7,25
+EC-4598-C,Quick Disconnect - Industrial Grade,electrical connectors,0,19.49,Parker Hannifin,5,6
+SG-7572-C,Piston Seal - Industrial Grade,seals and gaskets,0,10.28,Eaton,6,23
+PG-4483-D,Digital Gauge - Industrial Grade,pressure gauges,0,196.71,Norgren,7,25
+HF-3340-C,Bulkhead Fitting - Industrial Grade,hydraulic fittings,0,24.35,Festo,8,22
+PV-5304-D,Directional Valve - Industrial Grade,pneumatic valves,0,142.82,Swagelok,10,12
+EC-9348-D,Deutsch Connector - Industrial Grade,electrical connectors,0,57.42,Eaton,6,8
+SG-3621-D,Rod Seal - Industrial Grade,seals and gaskets,0,3.8,Swagelok,10,17
+PG-8668-C,Test Gauge - Industrial Grade,pressure gauges,0,191.88,Bimba,4,5
+HF-9797-C,90 Deg Elbow - Industrial Grade,hydraulic fittings,0,13.48,Hydac,9,18
+PV-8433-A,Flow Control Valve - Industrial Grade,pneumatic valves,0,311.71,Bosch Rexroth,12,29
+EC-9317-A,Deutsch Connector - Industrial Grade,electrical connectors,0,63.6,Bosch Rexroth,12,21
+SG-4258-B,Backup Ring - Industrial Grade,seals and gaskets,0,34.55,Hydac,9,22
+PG-1009-C,Test Gauge - Industrial Grade,pressure gauges,0,21.93,WIKA,11,16
+HF-4923-A,Tee Adapter - Industrial Grade,hydraulic fittings,0,75.18,SMC,7,7
+PV-8962-A,Solenoid Valve - Industrial Grade,pneumatic valves,0,250.92,Bimba,4,9
+EC-3705-C,Circular Connector - Industrial Grade,electrical connectors,0,65.82,Bimba,4,18
+SG-9835-B,Rod Seal - Industrial Grade,seals and gaskets,0,18.56,Bosch Rexroth,12,26
+PG-8177-D,Digital Gauge - Industrial Grade,pressure gauges,0,68.08,Eaton,6,7
+HF-1344-B,Tee Adapter - Industrial Grade,hydraulic fittings,0,22.23,Swagelok,10,7
+PV-4750-A,Solenoid Valve - Industrial Grade,pneumatic valves,0,278.59,Parker Hannifin,5,7
+EC-4899-C,Quick Disconnect - Industrial Grade,electrical connectors,0,18.43,WIKA,11,9
+SG-8744-B,Backup Ring - Industrial Grade,seals and gaskets,0,36.53,WIKA,11,11
+PG-2588-D,Dry Gauge - Industrial Grade,pressure gauges,0,103.56,Hydac,9,19
+HF-2612-A,90 Deg Elbow - Industrial Grade,hydraulic fittings,0,63.12,Norgren,7,30
+PV-5073-B,Solenoid Valve - Industrial Grade,pneumatic valves,0,183.2,SMC,7,9
+EC-4006-C,Circular Connector - Industrial Grade,electrical connectors,0,20.99,WIKA,11,7
+SG-2604-A,Flange Gasket - Industrial Grade,seals and gaskets,0,37.79,Bimba,4,7
+PG-3724-D,Liquid Filled Gauge - Industrial Grade,pressure gauges,0,115.23,WIKA,11,17
+HF-3697-D,90 Deg Elbow - Industrial Grade,hydraulic fittings,0,83.82,Parker Hannifin,5,13
+PV-5673-D,Shuttle Valve - Industrial Grade,pneumatic valves,0,220.25,Bimba,4,20
+EC-4111-C,Deutsch Connector - Industrial Grade,electrical connectors,0,72.75,SMC,7,23
+SG-1998-C,Backup Ring - Industrial Grade,seals and gaskets,0,3.21,Parker Hannifin,5,20
+PG-9701-B,Test Gauge - Industrial Grade,pressure gauges,0,212.08,Parker Hannifin,5,7
+HF-2122-A,Straight Coupling - Industrial Grade,hydraulic fittings,0,37.0,SMC,7,23
+PV-1651-A,Flow Control Valve - Industrial Grade,pneumatic valves,0,218.93,Norgren,7,23
+EC-6183-C,Quick Disconnect - Industrial Grade,electrical connectors,0,51.22,SMC,7,15
+SG-5351-D,Rod Seal - Industrial Grade,seals and gaskets,0,30.55,Festo,8,14
+PG-6180-A,Vacuum Gauge - Industrial Grade,pressure gauges,0,110.57,Parker Hannifin,5,23
+HF-2200-B,90 Deg Elbow - Industrial Grade,hydraulic fittings,68,15.16,Bimba,4,16
+PV-5002-C,Solenoid Valve - Industrial Grade,pneumatic valves,41,154.26,Bosch Rexroth,12,22
+EC-9666-A,Terminal Block - Industrial Grade,electrical connectors,77,70.09,Bimba,4,8
+SG-5333-A,Rod Seal - Industrial Grade,seals and gaskets,191,25.34,Eaton,6,13
+PG-4450-C,Digital Gauge - Industrial Grade,pressure gauges,176,146.12,SMC,7,13
+HF-9004-C,JIC Adapter - Industrial Grade,hydraulic fittings,24,55.56,Parker Hannifin,5,13
+PV-1058-C,Solenoid Valve - Industrial Grade,pneumatic valves,164,314.04,Festo,8,10
+EC-8007-A,Circular Connector - Industrial Grade,electrical connectors,20,71.04,Eaton,6,27
+SG-9938-A,Rod Seal - Industrial Grade,seals and gaskets,150,25.31,Hydac,9,18
+PG-1685-C,Liquid Filled Gauge - Industrial Grade,pressure gauges,231,206.48,Hydac,9,6
+HF-4441-B,Tee Adapter - Industrial Grade,hydraulic fittings,91,67.3,Eaton,6,18
+PV-3532-B,Directional Valve - Industrial Grade,pneumatic valves,250,260.97,Festo,8,10
+EC-1406-B,Circular Connector - Industrial Grade,electrical connectors,201,70.02,Hydac,9,30
+SG-5371-B,Rod Seal - Industrial Grade,seals and gaskets,98,39.38,Eaton,6,20
+PG-4269-D,Liquid Filled Gauge - Industrial Grade,pressure gauges,79,183.75,Hydac,9,12
+HF-1387-B,Straight Coupling - Industrial Grade,hydraulic fittings,85,26.93,Norgren,7,7
+PV-6753-D,Check Valve - Industrial Grade,pneumatic valves,85,302.07,Bimba,4,8
+EC-3925-C,Terminal Block - Industrial Grade,electrical connectors,28,45.95,Parker Hannifin,5,16
+SG-8149-A,Piston Seal - Industrial Grade,seals and gaskets,231,26.37,Norgren,7,13
+PG-8144-A,Dry Gauge - Industrial Grade,pressure gauges,237,180.92,Bimba,4,26
+HF-6967-D,Straight Coupling - Industrial Grade,hydraulic fittings,243,57.97,Eaton,6,15
+PV-6143-A,Directional Valve - Industrial Grade,pneumatic valves,130,116.24,Bosch Rexroth,12,18
+EC-7592-C,Terminal Block - Industrial Grade,electrical connectors,33,16.81,Bimba,4,26
+SG-3851-C,Flange Gasket - Industrial Grade,seals and gaskets,141,37.68,Norgren,7,14
+PG-4443-D,Digital Gauge - Industrial Grade,pressure gauges,156,150.25,Swagelok,10,19
+HF-8244-B,Bulkhead Fitting - Industrial Grade,hydraulic fittings,122,68.4,Bimba,4,30
+PV-2389-C,Flow Control Valve - Industrial Grade,pneumatic valves,170,211.72,Bimba,4,15
+EC-4848-C,M12 Connector - Industrial Grade,electrical connectors,207,17.34,SMC,7,5
+SG-5011-D,O-Ring Kit - Industrial Grade,seals and gaskets,218,34.81,Swagelok,10,19
+PG-4185-D,Vacuum Gauge - Industrial Grade,pressure gauges,103,67.28,WIKA,11,25
+HF-2746-D,90 Deg Elbow - Industrial Grade,hydraulic fittings,46,69.23,SMC,7,27
+PV-8611-A,Directional Valve - Industrial Grade,pneumatic valves,64,295.65,Bimba,4,8
+EC-3184-D,Circular Connector - Industrial Grade,electrical connectors,144,45.87,Bimba,4,29
+SG-9270-D,Flange Gasket - Industrial Grade,seals and gaskets,115,40.48,Bimba,4,28
+PG-8373-C,Vacuum Gauge - Industrial Grade,pressure gauges,216,146.81,SMC,7,29
+HF-8939-B,JIC Adapter - Industrial Grade,hydraulic fittings,113,10.74,Bosch Rexroth,12,14
+PV-5451-C,Flow Control Valve - Industrial Grade,pneumatic valves,229,184.34,Hydac,9,9
+EC-4788-D,Deutsch Connector - Industrial Grade,electrical connectors,181,18.4,Festo,8,18
+SG-6421-D,Flange Gasket - Industrial Grade,seals and gaskets,16,10.1,Norgren,7,18
+PG-1320-D,Vacuum Gauge - Industrial Grade,pressure gauges,2,208.43,WIKA,11,14
+HF-7865-B,Bulkhead Fitting - Industrial Grade,hydraulic fittings,57,26.47,WIKA,11,20
+PV-7371-C,Solenoid Valve - Industrial Grade,pneumatic valves,186,73.69,Norgren,7,19
+EC-9751-A,Deutsch Connector - Industrial Grade,electrical connectors,152,43.64,Norgren,7,5
+SG-8022-B,O-Ring Kit - Industrial Grade,seals and gaskets,47,3.21,WIKA,11,17
+PG-4467-D,Digital Gauge - Industrial Grade,pressure gauges,87,171.77,Hydac,9,17
+HF-7906-C,Tee Adapter - Industrial Grade,hydraulic fittings,121,6.06,Eaton,6,22
+PV-6733-B,Solenoid Valve - Industrial Grade,pneumatic valves,200,307.4,Eaton,6,6
+EC-5051-B,M12 Connector - Industrial Grade,electrical connectors,160,13.97,Parker Hannifin,5,9
+SG-2874-B,Flange Gasket - Industrial Grade,seals and gaskets,180,12.27,WIKA,11,16
+PG-2876-B,Liquid Filled Gauge - Industrial Grade,pressure gauges,28,134.89,Bosch Rexroth,12,14
+HF-7149-D,JIC Adapter - Industrial Grade,hydraulic fittings,20,52.16,SMC,7,25
+PV-2669-C,Flow Control Valve - Industrial Grade,pneumatic valves,207,60.71,Swagelok,10,23
+EC-6688-D,M12 Connector - Industrial Grade,electrical connectors,18,39.43,Hydac,9,15
+SG-7882-D,O-Ring Kit - Industrial Grade,seals and gaskets,111,43.27,Eaton,6,25
+PG-3506-D,Vacuum Gauge - Industrial Grade,pressure gauges,188,123.39,Festo,8,25
+HF-9817-D,Tee Adapter - Industrial Grade,hydraulic fittings,112,70.97,WIKA,11,23
+PV-6280-B,Check Valve - Industrial Grade,pneumatic valves,72,285.08,Eaton,6,12
+EC-7209-C,Circular Connector - Industrial Grade,electrical connectors,127,64.27,Parker Hannifin,5,10
+SG-4475-C,Flange Gasket - Industrial Grade,seals and gaskets,88,13.3,Bosch Rexroth,12,24
+PG-1166-B,Digital Gauge - Industrial Grade,pressure gauges,62,163.46,Eaton,6,20
+HF-4937-D,JIC Adapter - Industrial Grade,hydraulic fittings,115,68.33,WIKA,11,7
+PV-4630-D,Check Valve - Industrial Grade,pneumatic valves,79,220.87,SMC,7,16
+EC-9698-C,Circular Connector - Industrial Grade,electrical connectors,191,42.63,Norgren,7,16
+SG-5438-C,Flange Gasket - Industrial Grade,seals and gaskets,60,6.31,Bosch Rexroth,12,11
+PG-2958-B,Digital Gauge - Industrial Grade,pressure gauges,56,167.2,SMC,7,13
+HF-9595-C,JIC Adapter - Industrial Grade,hydraulic fittings,214,20.13,Eaton,6,12
+PV-3939-C,Check Valve - Industrial Grade,pneumatic valves,182,182.57,Parker Hannifin,5,13
+EC-1893-C,M12 Connector - Industrial Grade,electrical connectors,164,65.53,Festo,8,20
+SG-1200-C,O-Ring Kit - Industrial Grade,seals and gaskets,123,20.38,WIKA,11,10
+PG-5136-D,Dry Gauge - Industrial Grade,pressure gauges,211,31.2,Eaton,6,20
+HF-1878-B,90 Deg Elbow - Industrial Grade,hydraulic fittings,208,49.81,Festo,8,14
+PV-5066-A,Solenoid Valve - Industrial Grade,pneumatic valves,196,147.77,Bimba,4,24
+EC-4697-D,Quick Disconnect - Industrial Grade,electrical connectors,233,34.88,WIKA,11,23
+SG-6003-A,Flange Gasket - Industrial Grade,seals and gaskets,246,33.56,Swagelok,10,29
+PG-4457-C,Liquid Filled Gauge - Industrial Grade,pressure gauges,41,66.45,Eaton,6,22
+HF-3564-A,90 Deg Elbow - Industrial Grade,hydraulic fittings,116,59.99,Norgren,7,20
+PV-1534-B,Check Valve - Industrial Grade,pneumatic valves,181,108.4,Bosch Rexroth,12,19
+EC-4824-C,M12 Connector - Industrial Grade,electrical connectors,170,60.88,Swagelok,10,11
+SG-2880-B,Flange Gasket - Industrial Grade,seals and gaskets,233,12.69,Festo,8,9
+PG-1977-B,Dry Gauge - Industrial Grade,pressure gauges,153,169.29,Bosch Rexroth,12,23
+HF-8195-A,Tee Adapter - Industrial Grade,hydraulic fittings,177,28.98,WIKA,11,17
+PV-9199-D,Check Valve - Industrial Grade,pneumatic valves,21,201.42,WIKA,11,18
+EC-5102-A,Terminal Block - Industrial Grade,electrical connectors,59,72.26,Eaton,6,23
+SG-1339-C,Backup Ring - Industrial Grade,seals and gaskets,11,34.58,Swagelok,10,10
+PG-9502-D,Vacuum Gauge - Industrial Grade,pressure gauges,47,219.38,Bosch Rexroth,12,18
+HF-2494-D,Bulkhead Fitting - Industrial Grade,hydraulic fittings,105,31.33,Hydac,9,26
+PV-3634-C,Solenoid Valve - Industrial Grade,pneumatic valves,178,171.16,Norgren,7,26
+EC-1601-D,Circular Connector - Industrial Grade,electrical connectors,81,21.17,Eaton,6,8
+SG-9431-A,Flange Gasket - Industrial Grade,seals and gaskets,119,19.18,Bimba,4,11
+PG-6927-D,Test Gauge - Industrial Grade,pressure gauges,195,28.43,WIKA,11,13
+HF-3146-C,JIC Adapter - Industrial Grade,hydraulic fittings,226,60.71,WIKA,11,8
+PV-4920-B,Solenoid Valve - Industrial Grade,pneumatic valves,142,29.03,Bosch Rexroth,12,18
+EC-4681-A,M12 Connector - Industrial Grade,electrical connectors,243,11.46,WIKA,11,9
+SG-5781-C,Flange Gasket - Industrial Grade,seals and gaskets,214,22.23,Norgren,7,20
+PG-8483-B,Liquid Filled Gauge - Industrial Grade,pressure gauges,49,204.22,Norgren,7,21
+HF-2143-C,Straight Coupling - Industrial Grade,hydraulic fittings,88,79.71,Norgren,7,21
+PV-1042-C,Check Valve - Industrial Grade,pneumatic valves,215,198.15,Bosch Rexroth,12,26
+EC-3434-D,Circular Connector - Industrial Grade,electrical connectors,124,27.85,Bimba,4,22
+SG-7180-D,Backup Ring - Industrial Grade,seals and gaskets,223,9.3,Hydac,9,27
+PG-7274-B,Liquid Filled Gauge - Industrial Grade,pressure gauges,12,82.27,Norgren,7,20
+HF-7325-B,Bulkhead Fitting - Industrial Grade,hydraulic fittings,247,7.48,WIKA,11,21
+PV-6439-A,Directional Valve - Industrial Grade,pneumatic valves,26,180.16,WIKA,11,19
+EC-3361-D,M12 Connector - Industrial Grade,electrical connectors,20,36.8,Festo,8,13
+SG-7512-A,Piston Seal - Industrial Grade,seals and gaskets,219,30.67,Hydac,9,22
+PG-6188-D,Vacuum Gauge - Industrial Grade,pressure gauges,10,142.73,Bimba,4,12
+HF-4727-A,Tee Adapter - Industrial Grade,hydraulic fittings,26,65.71,Norgren,7,27
+PV-8269-B,Solenoid Valve - Industrial Grade,pneumatic valves,232,33.54,Bosch Rexroth,12,15
+EC-5806-C,M12 Connector - Industrial Grade,electrical connectors,111,13.48,Hydac,9,21
+SG-3950-B,Flange Gasket - Industrial Grade,seals and gaskets,21,27.82,Festo,8,17
+PG-4945-D,Test Gauge - Industrial Grade,pressure gauges,37,64.9,Swagelok,10,25
+HF-8529-C,Tee Adapter - Industrial Grade,hydraulic fittings,231,69.27,Parker Hannifin,5,14
+PV-3588-A,Directional Valve - Industrial Grade,pneumatic valves,242,126.94,WIKA,11,23
+EC-7951-C,Terminal Block - Industrial Grade,electrical connectors,217,24.75,WIKA,11,17
+SG-2747-B,Flange Gasket - Industrial Grade,seals and gaskets,147,16.79,Norgren,7,14
+PG-1359-D,Digital Gauge - Industrial Grade,pressure gauges,3,132.32,Bosch Rexroth,12,26
+HF-9138-C,90 Deg Elbow - Industrial Grade,hydraulic fittings,156,69.06,SMC,7,12
+PV-5106-B,Flow Control Valve - Industrial Grade,pneumatic valves,232,210.1,Eaton,6,6
+EC-8222-A,Terminal Block - Industrial Grade,electrical connectors,94,55.73,Swagelok,10,7
+SG-6352-D,Piston Seal - Industrial Grade,seals and gaskets,52,6.82,Festo,8,22
+PG-9697-C,Digital Gauge - Industrial Grade,pressure gauges,66,202.64,Festo,8,20
+HF-6549-A,Tee Adapter - Industrial Grade,hydraulic fittings,247,10.56,WIKA,11,29
+PV-7511-C,Flow Control Valve - Industrial Grade,pneumatic valves,203,141.4,Eaton,6,13
+EC-3024-D,Quick Disconnect - Industrial Grade,electrical connectors,173,56.93,Hydac,9,13
+SG-7242-C,Backup Ring - Industrial Grade,seals and gaskets,173,11.29,Eaton,6,5
+PG-6374-B,Test Gauge - Industrial Grade,pressure gauges,163,184.42,Eaton,6,27
+HF-7689-A,Tee Adapter - Industrial Grade,hydraulic fittings,12,80.67,Festo,8,14
+PV-2902-A,Shuttle Valve - Industrial Grade,pneumatic valves,228,183.58,SMC,7,17
+EC-7078-D,Circular Connector - Industrial Grade,electrical connectors,191,55.32,Swagelok,10,18
+SG-9017-D,O-Ring Kit - Industrial Grade,seals and gaskets,9,31.37,Bosch Rexroth,12,11
+PG-8285-B,Vacuum Gauge - Industrial Grade,pressure gauges,26,216.15,Hydac,9,16
+HF-6876-A,JIC Adapter - Industrial Grade,hydraulic fittings,71,19.78,Norgren,7,8
+PV-2501-B,Shuttle Valve - Industrial Grade,pneumatic valves,249,31.3,Swagelok,10,30
+EC-4990-B,Terminal Block - Industrial Grade,electrical connectors,53,7.94,Swagelok,10,29
+SG-4394-B,Backup Ring - Industrial Grade,seals and gaskets,85,35.07,SMC,7,30
+PG-1046-C,Test Gauge - Industrial Grade,pressure gauges,34,127.12,Festo,8,30
+HF-2801-A,Straight Coupling - Industrial Grade,hydraulic fittings,4,33.34,Festo,8,30
+PV-6304-A,Flow Control Valve - Industrial Grade,pneumatic valves,68,40.46,Festo,8,28
+EC-9619-A,Circular Connector - Industrial Grade,electrical connectors,122,35.28,Eaton,6,16
+SG-2786-D,Backup Ring - Industrial Grade,seals and gaskets,57,42.6,Bimba,4,6
+PG-5941-D,Test Gauge - Industrial Grade,pressure gauges,16,219.71,Parker Hannifin,5,17
+HF-2768-D,Bulkhead Fitting - Industrial Grade,hydraulic fittings,19,76.89,WIKA,11,15
+PV-3430-A,Directional Valve - Industrial Grade,pneumatic valves,71,209.17,Festo,8,23
+EC-6327-D,Quick Disconnect - Industrial Grade,electrical connectors,136,24.23,Swagelok,10,21
+SG-8048-A,Backup Ring - Industrial Grade,seals and gaskets,219,29.81,Eaton,6,29
+PG-4522-D,Test Gauge - Industrial Grade,pressure gauges,228,64.16,WIKA,11,15
+HF-7532-D,Bulkhead Fitting - Industrial Grade,hydraulic fittings,81,38.85,Eaton,6,26
+PV-7132-B,Check Valve - Industrial Grade,pneumatic valves,18,51.91,WIKA,11,7
+EC-8075-A,M12 Connector - Industrial Grade,electrical connectors,208,12.37,Hydac,9,6
+SG-6400-A,Backup Ring - Industrial Grade,seals and gaskets,91,39.44,Norgren,7,29
+PG-1842-C,Vacuum Gauge - Industrial Grade,pressure gauges,80,89.03,Swagelok,10,23
+HF-4485-B,JIC Adapter - Industrial Grade,hydraulic fittings,58,72.71,WIKA,11,16
+PV-7022-A,Directional Valve - Industrial Grade,pneumatic valves,147,91.72,Bosch Rexroth,12,18
+EC-1430-C,Quick Disconnect - Industrial Grade,electrical connectors,47,22.68,Parker Hannifin,5,29
+SG-6567-C,Piston Seal - Industrial Grade,seals and gaskets,47,39.27,Parker Hannifin,5,23
+PG-2140-B,Vacuum Gauge - Industrial Grade,pressure gauges,24,168.71,Parker Hannifin,5,11
+HF-7878-D,Bulkhead Fitting - Industrial Grade,hydraulic fittings,41,34.29,Hydac,9,28
+PV-2391-A,Check Valve - Industrial Grade,pneumatic valves,41,247.56,Festo,8,6
+EC-5458-D,M12 Connector - Industrial Grade,electrical connectors,125,46.71,Norgren,7,18
+SG-4531-A,Piston Seal - Industrial Grade,seals and gaskets,111,5.88,Hydac,9,26
+PG-8972-C,Test Gauge - Industrial Grade,pressure gauges,57,97.84,Parker Hannifin,5,24
+HF-1125-B,90 Deg Elbow - Industrial Grade,hydraulic fittings,243,21.5,Bosch Rexroth,12,9
+PV-5742-C,Check Valve - Industrial Grade,pneumatic valves,2,171.73,Eaton,6,18
+EC-3116-D,Deutsch Connector - Industrial Grade,electrical connectors,181,19.57,Bimba,4,22
+SG-2180-D,Piston Seal - Industrial Grade,seals and gaskets,112,1.82,Parker Hannifin,5,7
+PG-8033-D,Digital Gauge - Industrial Grade,pressure gauges,75,41.27,Norgren,7,5
+HF-3815-D,Tee Adapter - Industrial Grade,hydraulic fittings,23,39.66,Hydac,9,8
+PV-8138-D,Flow Control Valve - Industrial Grade,pneumatic valves,21,141.75,Bimba,4,14
+EC-4630-C,Terminal Block - Industrial Grade,electrical connectors,20,39.75,Festo,8,8
+SG-9355-B,Backup Ring - Industrial Grade,seals and gaskets,90,33.0,Hydac,9,25
+PG-4871-A,Liquid Filled Gauge - Industrial Grade,pressure gauges,66,57.85,Festo,8,24
+HF-2234-B,Straight Coupling - Industrial Grade,hydraulic fittings,119,65.23,WIKA,11,29
+PV-8354-C,Directional Valve - Industrial Grade,pneumatic valves,39,154.73,Hydac,9,20
+EC-5961-C,Circular Connector - Industrial Grade,electrical connectors,15,28.34,Swagelok,10,7
+SG-8565-D,Piston Seal - Industrial Grade,seals and gaskets,15,17.22,Parker Hannifin,5,14
+PG-2479-D,Dry Gauge - Industrial Grade,pressure gauges,149,129.97,WIKA,11,30
+HF-8368-B,90 Deg Elbow - Industrial Grade,hydraulic fittings,155,42.79,Hydac,9,9
+PV-8381-A,Solenoid Valve - Industrial Grade,pneumatic valves,183,49.88,Hydac,9,25
+EC-1641-B,Deutsch Connector - Industrial Grade,electrical connectors,113,40.73,WIKA,11,24
+SG-6962-C,Rod Seal - Industrial Grade,seals and gaskets,100,18.99,Bosch Rexroth,12,15
+PG-1857-C,Test Gauge - Industrial Grade,pressure gauges,85,37.09,Eaton,6,26
+HF-5655-C,Bulkhead Fitting - Industrial Grade,hydraulic fittings,224,16.61,Swagelok,10,7
+PV-3317-C,Directional Valve - Industrial Grade,pneumatic valves,248,218.54,Bosch Rexroth,12,26
+EC-3112-A,Circular Connector - Industrial Grade,electrical connectors,144,30.12,Bosch Rexroth,12,30
+SG-3093-A,Piston Seal - Industrial Grade,seals and gaskets,131,16.92,Norgren,7,16
+PG-3953-B,Digital Gauge - Industrial Grade,pressure gauges,243,172.76,Hydac,9,11
+HF-3253-B,Straight Coupling - Industrial Grade,hydraulic fittings,76,72.48,Eaton,6,8
+PV-9843-A,Directional Valve - Industrial Grade,pneumatic valves,225,251.06,Hydac,9,9
+EC-7172-B,Quick Disconnect - Industrial Grade,electrical connectors,47,62.86,Festo,8,29
+SG-3712-D,Backup Ring - Industrial Grade,seals and gaskets,106,17.03,Parker Hannifin,5,28
+PG-8277-C,Liquid Filled Gauge - Industrial Grade,pressure gauges,60,125.87,WIKA,11,14
+HF-4178-C,Bulkhead Fitting - Industrial Grade,hydraulic fittings,113,41.67,Swagelok,10,14
+PV-9239-D,Shuttle Valve - Industrial Grade,pneumatic valves,210,83.91,Festo,8,24
+EC-5096-A,Deutsch Connector - Industrial Grade,electrical connectors,224,29.73,WIKA,11,8
+SG-3042-C,Backup Ring - Industrial Grade,seals and gaskets,196,8.05,Eaton,6,19
+PG-3414-D,Test Gauge - Industrial Grade,pressure gauges,243,201.92,Eaton,6,19
+HF-1436-D,Tee Adapter - Industrial Grade,hydraulic fittings,102,44.91,Parker Hannifin,5,12
+PV-2337-C,Shuttle Valve - Industrial Grade,pneumatic valves,8,119.01,SMC,7,8
+EC-3392-B,Terminal Block - Industrial Grade,electrical connectors,74,69.05,Parker Hannifin,5,20
+SG-8685-D,Rod Seal - Industrial Grade,seals and gaskets,2,40.86,Swagelok,10,5
+PG-4533-B,Digital Gauge - Industrial Grade,pressure gauges,241,164.9,Bimba,4,21
