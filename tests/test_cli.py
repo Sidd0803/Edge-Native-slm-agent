@@ -8,19 +8,22 @@ from cli import handle_command
 # ---------------------------------------------------------------------------
 
 def test_update_valid_field_calls_memory(capsys):
+    # Valid update reaches memory with correct args and prints confirmation
     memory = MagicMock()
     handle_command("/update HF-0001-A stock_qty 10", memory)
     memory.update_part.assert_called_once_with("HF-0001-A", {"stock_qty": 10})
     assert "Updated" in capsys.readouterr().out
 
 
-def test_update_uppercases_sku(capsys):
+def test_update_uppercases_sku():
+    # SKU is normalised to uppercase before being passed to memory
     memory = MagicMock()
     handle_command("/update hf-0001-a stock_qty 10", memory)
     memory.update_part.assert_called_once_with("HF-0001-A", {"stock_qty": 10})
 
 
 def test_update_unknown_sku_prints_error(capsys):
+    # KeyError from memory (SKU not found) is caught and printed, not raised
     memory = MagicMock()
     memory.update_part.side_effect = KeyError("SKU FAKE-0000-Z not found")
     handle_command("/update FAKE-0000-Z stock_qty 5", memory)
@@ -28,6 +31,7 @@ def test_update_unknown_sku_prints_error(capsys):
 
 
 def test_update_unknown_field_prints_error(capsys):
+    # KeyError from memory (bad field name) is caught and printed, not raised
     memory = MagicMock()
     memory.update_part.side_effect = KeyError("Unknown field 'qty' for SKU HF-0001-A")
     handle_command("/update HF-0001-A qty 5", memory)
@@ -35,20 +39,22 @@ def test_update_unknown_field_prints_error(capsys):
 
 
 def test_update_type_mismatch_prints_error(capsys):
+    # ValueError from memory (wrong value type) is caught and printed, not raised
     memory = MagicMock()
     memory.update_part.side_effect = ValueError("Field 'stock_qty' expects int, got 'zero'")
     handle_command("/update HF-0001-A stock_qty zero", memory)
     assert "Error" in capsys.readouterr().out
 
 
-def test_update_coerces_integer_string(capsys):
+def test_update_coerces_integer_string():
+    # "5" as a CLI string is coerced to int before reaching memory
     memory = MagicMock()
     handle_command("/update HF-0001-A stock_qty 5", memory)
-    # _coerce("5") → int(5); memory should receive the int not the string
     memory.update_part.assert_called_once_with("HF-0001-A", {"stock_qty": 5})
 
 
-def test_update_coerces_float_string(capsys):
+def test_update_coerces_float_string():
+    # "9.99" as a CLI string is coerced to float before reaching memory
     memory = MagicMock()
     handle_command("/update HF-0001-A unit_price 9.99", memory)
     memory.update_part.assert_called_once_with("HF-0001-A", {"unit_price": 9.99})
@@ -65,7 +71,8 @@ def test_remove_valid_sku_calls_memory(capsys):
     assert "Removed" in capsys.readouterr().out
 
 
-def test_remove_uppercases_sku(capsys):
+def test_remove_uppercases_sku():
+    # SKU is normalised to uppercase before being passed to memory
     memory = MagicMock()
     handle_command("/remove hf-0001-a", memory)
     memory.remove_part.assert_called_once_with("HF-0001-A")

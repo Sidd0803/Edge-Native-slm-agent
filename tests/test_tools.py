@@ -30,6 +30,7 @@ OUT_OF_STOCK = {
 # ---------------------------------------------------------------------------
 
 def test_check_stock_in_stock():
+    # Response includes stock count, SKU, supplier, and price for an in-stock part
     mock_mem = MagicMock()
     mock_mem.get_by_sku.return_value = IN_STOCK
     with patch("agent.tools._get_memory", return_value=mock_mem):
@@ -41,6 +42,7 @@ def test_check_stock_in_stock():
 
 
 def test_check_stock_out_of_stock():
+    # Response flags out-of-stock status and includes supplier and lead time
     mock_mem = MagicMock()
     mock_mem.get_by_sku.return_value = OUT_OF_STOCK
     with patch("agent.tools._get_memory", return_value=mock_mem):
@@ -51,6 +53,7 @@ def test_check_stock_out_of_stock():
 
 
 def test_check_stock_not_found():
+    # Response communicates clearly when a SKU is not in the catalog
     mock_mem = MagicMock()
     mock_mem.get_by_sku.return_value = None
     with patch("agent.tools._get_memory", return_value=mock_mem):
@@ -59,6 +62,7 @@ def test_check_stock_not_found():
 
 
 def test_check_stock_uppercases_sku():
+    # SKU is normalised to uppercase before hitting the memory layer
     mock_mem = MagicMock()
     mock_mem.get_by_sku.return_value = None
     with patch("agent.tools._get_memory", return_value=mock_mem):
@@ -71,6 +75,7 @@ def test_check_stock_uppercases_sku():
 # ---------------------------------------------------------------------------
 
 def test_lookup_part_returns_multiple_results():
+    # All matching parts from the search are present in the response
     mock_mem = MagicMock()
     mock_mem.search.return_value = [IN_STOCK, OUT_OF_STOCK]
     with patch("agent.tools._get_memory", return_value=mock_mem):
@@ -80,6 +85,7 @@ def test_lookup_part_returns_multiple_results():
 
 
 def test_lookup_part_no_results():
+    # Response communicates clearly when no parts match the query
     mock_mem = MagicMock()
     mock_mem.search.return_value = []
     with patch("agent.tools._get_memory", return_value=mock_mem):
@@ -88,6 +94,7 @@ def test_lookup_part_no_results():
 
 
 def test_lookup_part_out_of_stock_visible():
+    # Out-of-stock parts are included in results, not silently filtered out
     mock_mem = MagicMock()
     mock_mem.search.return_value = [OUT_OF_STOCK]
     with patch("agent.tools._get_memory", return_value=mock_mem):
@@ -96,6 +103,7 @@ def test_lookup_part_out_of_stock_visible():
 
 
 def test_lookup_part_searches_with_n3():
+    # Search always requests exactly 3 candidates from the memory layer
     mock_mem = MagicMock()
     mock_mem.search.return_value = [IN_STOCK]
     with patch("agent.tools._get_memory", return_value=mock_mem):

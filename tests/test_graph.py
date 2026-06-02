@@ -4,7 +4,7 @@ from unittest.mock import MagicMock, patch
 from langchain_core.messages import AIMessage, HumanMessage
 from langgraph.graph import END
 
-from agent.graph import AgentState, _should_continue, _reason, build_graph
+from agent.graph import _should_continue, _reason, build_graph
 
 
 # ---------------------------------------------------------------------------
@@ -12,6 +12,7 @@ from agent.graph import AgentState, _should_continue, _reason, build_graph
 # ---------------------------------------------------------------------------
 
 def test_graph_compiles():
+    # Graph definition is valid and produces a runnable compiled graph
     graph = build_graph()
     assert graph is not None
 
@@ -21,6 +22,7 @@ def test_graph_compiles():
 # ---------------------------------------------------------------------------
 
 def test_should_continue_routes_to_tool_when_tool_calls_present():
+    # Agent response with a tool call routes to call_tool, not END
     msg = AIMessage(
         content="",
         tool_calls=[{"name": "check_stock", "args": {"sku": "HF-001"}, "id": "t1"}],
@@ -29,11 +31,13 @@ def test_should_continue_routes_to_tool_when_tool_calls_present():
 
 
 def test_should_continue_routes_to_end_when_no_tool_calls():
+    # Agent response with plain content and no tool calls terminates the loop
     msg = AIMessage(content="The part is in stock.")
     assert _should_continue({"messages": [msg]}) == END
 
 
 def test_should_continue_routes_to_end_on_empty_tool_calls_list():
+    # Explicitly empty tool_calls list is treated the same as no tool calls
     msg = AIMessage(content="Done.", tool_calls=[])
     assert _should_continue({"messages": [msg]}) == END
 
@@ -43,6 +47,7 @@ def test_should_continue_routes_to_end_on_empty_tool_calls_list():
 # ---------------------------------------------------------------------------
 
 def test_reason_node_returns_single_message():
+    # The reason node wraps the LLM response in a one-element messages list
     mock_response = AIMessage(content="Here is the answer.")
     mock_llm = MagicMock()
     mock_llm.bind_tools.return_value = MagicMock(invoke=MagicMock(return_value=mock_response))
@@ -56,6 +61,7 @@ def test_reason_node_returns_single_message():
 
 
 def test_reason_node_prepends_system_prompt():
+    # The system prompt is always the first message sent to the LLM
     mock_response = AIMessage(content="ok")
     mock_bound = MagicMock(invoke=MagicMock(return_value=mock_response))
     mock_llm = MagicMock(bind_tools=MagicMock(return_value=mock_bound))
