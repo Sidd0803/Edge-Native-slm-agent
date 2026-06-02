@@ -38,6 +38,8 @@ class PartsMemory:
         return None
 
     def add_part(self, part: dict):
+        if self.get_by_sku(part["sku"]) is not None:
+            raise ValueError(f"SKU {part['sku']} already exists — use update_part to modify it")
         text = _part_to_text(part)
         self._collection.add(
             ids=[part["sku"]],
@@ -50,6 +52,17 @@ class PartsMemory:
         existing = self.get_by_sku(sku)
         if existing is None:
             raise KeyError(f"SKU {sku} not found")
+        for field, value in fields.items():
+            if field not in existing:
+                raise KeyError(f"Unknown field '{field}'")
+            expected_type = type(existing[field])
+            if not isinstance(value, expected_type):
+                try:
+                    fields = {**fields, field: expected_type(value)}
+                except (ValueError, TypeError):
+                    raise ValueError(
+                        f"Field '{field}' expects {expected_type.__name__}, got '{value}'"
+                    )
         existing.update(fields)
         text = _part_to_text(existing)
         self._collection.update(
@@ -60,6 +73,8 @@ class PartsMemory:
         )
 
     def remove_part(self, sku: str):
+        if self.get_by_sku(sku) is None:
+            raise KeyError(f"SKU {sku} not found")
         self._collection.delete(ids=[sku])
 
     def list_by_category(self, category: str) -> list[dict]:
